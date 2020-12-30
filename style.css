@@ -1,0 +1,250 @@
+/* This is coding by rabiul hasan reday */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.body{
+    box-sizing: border-box;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clear{
+    contain: "";
+    clear: both;
+    display: block;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* header part start */
+
+.header-section {
+    text-align: right;
+    padding: 9px 0px;
+    margin-top: 13px;
+    margin-right: 20px;
+}
+.header-list-file{}
+
+.header-list-file ul {
+    display: inline-block;
+}
+.header-list-file ul li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+.header-list-file ul li a {
+    color: black;
+    font-size: 13px;
+}
+
+.header-list-file ul li a:hover {
+    text-decoration: underline;
+}
+.Header-icon {
+    vertical-align: middle;
+}
+.Header-icon:hover {
+    font-weight: 500;
+}
+.header-button {
+    border: 1px solid #ddd;
+    background: #4486f8;
+    padding: 9px 16px;
+    color: white !important;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.header-button:hover {
+    text-decoration: none !important;
+    background: #266de7;
+    transition: .5s;
+}
+
+/* header part finishes */
+
+/* middle section start */
+
+.middle-section {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.middle-image {
+    margin-bottom: 25px;
+}
+
+.middle-image img{}
+
+.middle-section-input{}
+
+.middle-section-input form{}
+
+.middle-section-input form:hover{}
+
+.input-search{}
+
+.searchIcon {
+    border: 1px solid #ddd;
+    width: 30px;
+    height: 43px;
+    border-right: none;
+    line-height: 43px;
+    font-size: 16px;
+    padding-left: 12px;
+    padding-top: 1.6px;
+    border-radius: 40px 0px 0px 40px;
+    color: #9AA0A6;
+}
+
+
+
+
+.inputBox {
+    width: 40%;
+    height: 46px;
+    border: 1px solid #ddd;
+    border-left: none;
+    font-size: 20px;
+    line-height: 43px;
+    border-radius: 0px 40px 40px 0px;
+    margin-bottom: 30px;
+}
+
+
+.button{
+    margin-bottom: 35px;
+}
+
+.default-button {
+    margin-right: 32px;
+    background: #f4f4f4;
+    color: #5F6368;
+    padding: 12px 18px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+
+.default-button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: black;
+}
+
+.default-button:focus{
+    border: 1px solid #629dfd;
+}
+
+
+.middle-part-text{}
+
+.middle-part-text p {
+    font-size: 13px;
+    margin-bottom: 146px;
+}
+
+.middle-part-text a{
+    color: blue;
+}
+
+.middle-part-text a:hover{
+    text-decoration: underline;
+}
+
+/* middle section end */
+
+/* footer section start */
+.footer-title {
+    background: #f2f2f2;
+    padding: 10px 0px;
+    border: 1px solid #ddd;
+}
+
+.footer-title p {
+    color: #5f6368;
+    margin-left: 30px;
+}
+
+.footer-menu {
+    position: relative;
+    background: #f2f2f2;
+    height: 30px;
+}
+
+.menu-left {
+    width: 48%;
+    float: left;
+}
+.menu-left ul {
+    margin-top: 5px;
+    text-align: left;
+}
+.menu-left ul li {
+    display: inline-block;
+}
+.menu-left ul li a {
+    color: #5f6368;
+    padding: 10px 12px;
+    font-size: 15px;
+    display: block;
+}
+.menu-left ul li a:hover{
+    text-decoration: underline;
+}
+
+.menu-right{
+    width: 40%;
+    float: right;
+}
+
+.menu-right ul {
+    margin-top: -33px;
+    text-align: right;
+    padding: 0px 30px;
+}
+
+.menu-right ul li {
+    display: inline-block;
+}
+.menu-right ul li a {
+    display: block;
+    color: #5f6368;
+    padding: 1px 15px;
+    font-size: 16px;
+}
+.menu-right ul li a:hover{
+    text-decoration: underline;
+
+}
